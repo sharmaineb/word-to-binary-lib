@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word to Binary Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #inputWord {
+            padding: 10px;
+            font-size: 16px;
+        }
+        #convertButton {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #f1f1f1;
+            border: none;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word to Binary Converter</h1>
+    <input type="text" id="inputWord" placeholder="Enter a word">
+    <button id="convertButton">Convert to Binary</button>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById('convertButton').addEventListener('click', () => {
+            const inputWord = document.getElementById('inputWord').value;
+            const binaryResult = wordToBinary(inputWord);
+            document.getElementById('result').textContent = `Binary: ${binaryResult}`;
+        });
+
+        function wordToBinary(word) {
+            return word.split('').map(char => {
+                const binaryChar = char.charCodeAt(0).toString(2);
+                return '0'.repeat(8 - binaryChar.length) + binaryChar;
+            }).join(' ');
+        }
+    </script>
+</body>
+</html>
