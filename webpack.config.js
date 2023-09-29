@@ -17,8 +17,8 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-		library: 'word-to-binary',
-		libraryTarget: 'umd',
-		globalObject: 'this',
+    library: 'word-to-binary',
+    libraryTarget: 'umd',
+    globalObject: 'this',
   },
 };
