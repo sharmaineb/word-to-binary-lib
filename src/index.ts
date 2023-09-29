@@ -31,18 +31,3 @@ function wordToBinary(word: string): string {
 export {
   wordToBinary,
 };
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
