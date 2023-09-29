@@ -9,7 +9,7 @@
 
 [<img src="https://img.shields.io/badge/ESLint-Passed-brightgreen" alt="ESLint">](https://www.npmjs.com/package/@sharshar/word-to-bin-lib)
 
-[<img src="https://img.shields.io/badge/npm-v1.1.1-blue" alt="ESLint">](https://www.npmjs.com/package/@sharshar/word-to-bin-lib)
+[<img src="https://img.shields.io/badge/npm-v1.1.2-blue" alt="ESLint">](https://www.npmjs.com/package/@sharshar/word-to-bin-lib)
 
 [<img src="https://img.shields.io/badge/license-ISC-blue" alt="ESLint">](https://www.npmjs.com/package/@sharshar/word-to-bin-lib)
 
