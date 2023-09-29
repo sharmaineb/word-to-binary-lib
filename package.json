@@ -1,7 +1,7 @@
 {
-  "name": "bin-lib",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@sharshar/word-to-bin-lib",
+  "version": "1.1.2",
+  "description": "bin-lib is a minimalistic library that allows you to convert words and text into binary code.",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -11,8 +11,8 @@
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sharmaine",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.5",
     "eslint": "^8.50.0",
@@ -257,5 +257,13 @@
     "yargs": "^17.7.2",
     "yargs-parser": "^21.1.1",
     "yocto-queue": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmaineb/word-to-binary-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sharmaineb/word-to-binary-lib/issues"
+  },
+  "homepage": "https://github.com/sharmaineb/word-to-binary-lib/blob/main/README.md"
 }
