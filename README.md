@@ -11,7 +11,7 @@
 
 [<img src="https://img.shields.io/badge/npm-v1.1.2-blue" alt="ESLint">](https://www.npmjs.com/package/@sharshar/word-to-bin-lib)
 
-[<img src="https://img.shields.io/badge/license-ISC-blue" alt="ESLint">](https://www.npmjs.com/package/@sharshar/word-to-bin-lib)
+[<img src="https://img.shields.io/badge/license-MIT-blue" alt="ESLint">](https://www.npmjs.com/package/@sharshar/word-to-bin-lib)
 
 [npm package link](https://www.npmjs.com/package/@sharshar/word-to-bin-lib)
 
