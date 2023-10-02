@@ -46,6 +46,6 @@ Whether you want to convert your name to binary or explore the world of ones and
 To get started with **bin-lib**, you'll need to install it in your project. You can do this using npm or yarn.
 
 ```bash
-npm install bin-lib
+npm install word-to-binary-lib
 # or
-yarn add bin-lib
+yarn add word-to-binary-lib
